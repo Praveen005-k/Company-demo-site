@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series-1</title>
+    <link rel="stylesheet" href="tube_1.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div id="company" class="nav_left" onmouseenter="changeCompany()" onmouseout="normal()" >
+                Company
+            </div>
+            <div class="nav_right">
+                <ul>
+                    <li class="revenue">Revenue</li>
+                    <li class="sales">Sales</li>
+                    <li class="customer">Customers</li>
+                    <li class="reports">Reports</li>
+                    <li class="settings">Settings</li>
+                </ul>
+            </div>
+            <div class="dark-theme" onclick="darkTheme()" ondblclick="lightTheme()">Dark Theme</div>
+            <div id="loginbtn">Login</div>
+
+            <button id="close">Close sidebar</button>
+
+        </nav>
+    </header>
+
+    <!-- <div class="login-modal" id="loginSection">
+        <h3 class="loginTitle">Login</h3>
+        <div id="closeBtn">Close</div>
+        <input type="text" placeholder="Enter Your name"><br>
+        <input type="text" placeholder="Enter your password"><br>
+        <button id="loginSubmit">Submit</button>
+    </div> -->
+
+
+    <div class="sidenav">
+        <ul>
+            <li>Dashboard</li>
+            <li class="revenue">Revenue</li>
+            <li class="sales">Sales</li>
+            <li class="customer">Customers</li>
+            <li class="reports">Reports</li>
+            <li class="settings">Settings</li>
+            <li class="events">Events</li>
+            <li class="meeting">Meetings</li>
+        </ul>
+    </div>
+
+
+    <div class="main">
+        <div class="sec revenue" onmouseover="eleHover(this)" onmouseout="eleOut(this)">
+            <h2>Revenue</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div class="sec sale" onmouseover="eleHover(this)" onmouseout="eleOut(this)">
+            <h2>Sales</h2>
+            <p>Ut euismod efficitur turpis, non tincidunt nibh volutpat sed</p>
+        </div>
+        <div class=" sec customer" onmouseover="eleHover(this)" onmouseout="eleOut(this)">
+            <h2>Customers</h2>
+            <p>Suspendisse semper ipsum eget neque malesuada auctor.</p>
+        </div>
+        <div class="sec reports" onmouseover="eleHover(this)" onmouseout="eleOut(this)">
+            <h2>Reports</h2>
+            <p>Morbi id feugiat mauris, at tempus mi.</p>
+        </div>
+        <div class="sec meeting" onmouseover="eleHover(this)" onmouseout="eleOut(this)">
+            <h2>Meetings</h2>
+            <p>Nulla facilisi. Vestibulum vitae eros nec lectus posuere ultricies.</p>
+        </div>
+        <div class="sec events" onmouseover="eleHover(this)" onmouseout="eleOut(this)">
+            <h2>Events</h2>
+            <p>Quisque eu massa a mauris ultricies dapibus non vitae nulla.</p>
+        </div>
+    </div>
+
+    <script src="tube_1.js"></script>
+
+
+
+
+    
+</body>
+</html>
